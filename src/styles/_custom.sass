@@ -1,0 +1,193 @@
+.tarjeta--azul2
+  background-color: #039BE5
+
+.tarjeta--azul3
+  background-color: lighten($color-primario, 35%)  
+
+.acordion__accion__btn--a 
+  background-color: #FFCA28
+
+.bloque-texto-a.color-acento-contenido 
+  background-color: #E8E8E8
+.bloque-texto-a__texto
+  background-color: #ffffffe6
+
+.lista-ul--color.lista-amarilla li > i:first-of-type
+  color: #FFA726
+
+.etiqueta
+  padding: 1px 3px 3px
+
+// TABS -----------------------------------
+.tabs-b
+  border-bottom: 0px
+  &__header
+    margin-bottom: 15px
+  &__tab
+    background-color: #FFF
+    border-right: 0px
+    border-bottom: 4px solid $color-sistema-f
+    line-height: $heading-line-height
+    text-align: center
+    display: flex
+    align-items: center
+    justify-content: center
+    position: relative
+    &:after, &:before
+      content: ''
+      display: block
+      position: absolute
+      transform: translate(-50%,-50%)
+    &:after
+      width: 2px
+      height: 20px
+      top: 80%
+      right: -2px
+      background-color: $color-sistema-f
+    &:last-child
+      &:after
+        display: none
+
+    &--active
+      border-bottom: 4px solid !important
+      &:before
+        width: 0
+        height: 0
+        border-left: 10px solid transparent
+        border-right: 10px solid transparent
+        border-top: 10px solid
+        left: 50%
+        top: calc(100% + 6px)
+
+      &:active, &:focus, &:hover
+        background-color: transparent
+      .tabs-b__tab__title
+        font-weight: $base-bold-font-weight
+        font-size: 1em
+
+  &.color-acento-contenido
+    .tabs-b__tab--active
+      border-bottom-color: $color-acento-contenido !important
+      border-top-color: #FFF !important
+      &:before
+        border-top-color: $color-acento-contenido
+.tabs-b__tab__title
+  font-size: 1em        
+.tabs-b__tab__icon
+  width: 80px
+  filter: grayscale(1)
+.tabs-b__tab__icon img
+  height: 65px
+.tabs-b__tab--active .tabs-b__tab__icon
+  filter: grayscale(0)
+.tabs-b__tab:active, .tabs-b__tab:focus, .tabs-b__tab:hover
+  background-color: #FFF
+
+
+
+// IMG HOVER -----------------------------------
+
+.content
+  position: relative
+  margin: auto
+  overflow: hidden
+  height: 340px
+
+.content .content-overlay
+  background: #26a69ad1
+  position: absolute
+  left: 0
+  top: 0
+  bottom: 10%
+  right: 0
+  opacity: 0
+  -webkit-transition: all 0.4s ease-in-out 0s
+  -moz-transition: all 0.4s ease-in-out 0s
+  transition: all 0.4s ease-in-out 0s
+
+.content:hover .content-overlay
+  opacity: 1
+
+.content-image
+  width: 100%
+
+.tarjeta-details
+  position: absolute
+  text-align: center
+  padding-left: 1em
+  padding-right: 1em
+  width: 80%
+  top: 50%
+  left: 50%
+  opacity: 0
+  -webkit-transform: translate(-50%, -50%)
+  -moz-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+  -webkit-transition: all 0.3s ease-in-out 0s
+  -moz-transition: all 0.3s ease-in-out 0s
+  transition: all 0.3s ease-in-out 0s
+
+.tarjeta-details h5
+  font-weight: normal
+  line-height: 1.4
+
+.content:hover .tarjeta-details
+  top: 50%
+  left: 50%
+  opacity: 1
+
+.fadeIn-top
+  top: 20%
+
+.btn-numero h3
+  font-size: 35px
+  left: 39%
+  position: absolute
+  background-color: #26A69A
+  top: 70%
+  border-radius: 50%
+  width: 100px
+  height: 100px
+  text-align: center
+  display: flex
+  flex-direction: column
+  justify-content: center
+  border: 7px solid #FFCA28
+  z-index: 0
+  -webkit-transition: all 0.3s ease-in-out 0s
+  -moz-transition: all 0.3s ease-in-out 0s
+  transition: all 0.3s ease-in-out 0s
+.btn-numero h3:hover
+  color: #00104E
+  background-color: #FFA726
+  -webkit-transition: all 0.3s ease-in-out 0s
+  -moz-transition: all 0.3s ease-in-out 0s
+  transition: all 0.3s ease-in-out 0s
+
+
+
+// INDICADOR INTERACCION -----------------------------------
+.indicador-interaccion
+  left: 50%
+  position: absolute
+  margin-top: 10px
+  margin-left: 20px
+  transform: translate(-50%,-50%)
+  pointer-events: none
+  z-index: 999
+  &__icon
+    width: 40px
+    height: 40px
+    background-image: url('../assets/template/puntero.svg')
+    animation: hand-fade-in 3s ease-in-out 3s infinite
+
+@keyframes hand-fade-in
+  0%
+    opacity: 0
+    transform: translate(100px)
+  35%
+    opacity: 1
+    transform: translate(0)
+  100%
+    opacity: 1
+    transform: translate(0)  

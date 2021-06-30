@@ -108,8 +108,10 @@
 .content:hover .content-overlay
   opacity: 1
 
-.content-image
-  width: 100%
+.content img
+  object-fit: cover;
+  object-position: center center;
+  height: 90%;
 
 .tarjeta-details
   position: absolute
@@ -164,6 +166,13 @@
   -moz-transition: all 0.3s ease-in-out 0s
   transition: all 0.3s ease-in-out 0s
 
+@media screen and (max-width: 640px)
+  .content:hover .tarjeta-details
+    top: 40%;
+  .btn-numero h3
+    left: 35% !important
+  .tarjeta-details 
+    width: 95% !important 
 
 
 // INDICADOR INTERACCION -----------------------------------

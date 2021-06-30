@@ -51,7 +51,7 @@
 
     .row.justify-content-center(data-aos="fade-down")
       .col-lg-10
-        .bloque-texto-a.color-acento-contenido.p-4.p-md-4.mb-5 
+        .bloque-texto-a.color-acento-contenido.p-4.p-md-4.mb-4 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               h4.mb-0 La implementación de prácticas de DevOps en una organización permite: 

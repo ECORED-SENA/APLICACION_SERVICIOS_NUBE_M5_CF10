@@ -63,7 +63,7 @@
                     | Eliminar barreras entre las áreas de desarrollo y operaciones (De França, 2016).
                   li 
                     i.fas.fa-circle
-                    | Entrega más rápida de productos y servicios - time to market (Senapathi, 2018).a, 2016).
+                    | Entrega más rápida de productos y servicios - time to market (Senapathi, 2018).
                   li 
                     i.fas.fa-circle
                     | Favorecimiento de la automatización de procesos 29, 30 (Riungu-Kalliosaari, 2016).
@@ -138,16 +138,14 @@
                 | Cambio en la cultura, estructuras y estándares de la organización.
               li 
                 i.fas.fa-circle
-                | Despliegue de productos más rápidos y confiables.
-              li 
-                i.fas.fa-circle
                 | Dificultades al integrar estilos de trabajo del área de desarrollo y operaciones.
               li 
                 i.fas.fa-circle
                 | Selección de herramientas tecnológicas adecuadas.
               li 
                 i.fas.fa-circle
-                | Diseño de arquitectura que permita el soporte de prácticas de DevOps.        
+                | Diseño de arquitectura que permita el soporte de prácticas de DevOps.
+        
 
 
 

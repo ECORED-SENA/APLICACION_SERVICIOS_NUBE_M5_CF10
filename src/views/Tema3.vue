@@ -15,7 +15,7 @@
 
     .row.justify-content-center.mb-4(data-aos="fade-down") 
       .col-lg-10
-        .tarjeta.color-secundario.py-lg-4.px-lg-5.mb-5
+        .tarjeta.color-secundario.py-lg-4.px-lg-5.mb-5.p-3
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2.px-lg-2
               img.px-lg-2(src="@/assets/curso/icono-infografia.svg")

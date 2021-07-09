@@ -11,7 +11,9 @@
     figure.mb-5(data-aos="fade")
       img(src="@/assets/curso/banner-tema2.png", alt="Prácticas fundamentales")  
 
-    p.mb-4(data-aos="fade") Cuando se llega a apoyar laboralmente a una organización, conocer su historia permite analizar de forma general los logros que se han alcanzado, las vicisitudes y lecciones aprendidas. Esto hace parte de “la mejora continua”, con la que la gestión de la calidad permite enriquecer constantemente el desarrollo de la organización. 
+    p.mb-4(data-aos="fade") DevOps afecta a las organizaciones de 
+      em software 
+      | desde cuatro diferentes dimensiones (Lwakatare, 2015), que son: la cultura, las personas, los procesos y las herramientas. Cada una de estas dimensiones clasifica un conjunto de prácticas que son las que al final materializan los ideales de DevOps. Si bien es cierto que desde cada una de las dimensiones se puede identificar gran cantidad de buenas prácticas, a continuación, se listan y describen las que son mayormente implementadas en la industria actual.
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul3" data-aos="fade-down")
       
